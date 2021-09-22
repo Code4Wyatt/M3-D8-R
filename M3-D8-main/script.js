@@ -22,8 +22,7 @@ const displayProducts = (products) => {
           productSection.innerHTML += `<div class="row">
             <div class="col-md-4">
             <div class="card" style="width: 18rem">
-              <div class="row">
-              <img src="${product.imageUrl}" class="card-img-top img-fluid" alt="..." />
+              <img src="${product.imageUrl}" class="card-img-top img-fluid" alt="Product Image" />
               <div class="card-body">
                 <p class="card-text font-weight-bolder">
                   ${product.name}
@@ -38,7 +37,6 @@ const displayProducts = (products) => {
                 <a class="btn btn-warning" href="backoffice.html?id=${product._id}">Edit</a>
               </div>
               </div>
-            </div>
           </div>
           </div>`
         })
