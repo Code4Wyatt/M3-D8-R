@@ -77,6 +77,6 @@ async function getProductDetails(id) {
           if (field) field.value = product[key]
         })
       } catch (error) {
-        alert(error)
+        console.log(error)
       }
     }
