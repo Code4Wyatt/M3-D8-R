@@ -19,7 +19,7 @@ const displayProducts = (products) => {
 
     if (products) {
         products.forEach((product) => {
-          productSection.innerHTML += `<div class="row">
+          productSection.innerHTML += `<div class="row justify-content-between">
             <div class="col-md-4">
             <div class="card" style="width: 18rem">
               <img src="${product.imageUrl}" class="card-img-top img-fluid" alt="Product Image" />
