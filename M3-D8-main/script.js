@@ -33,7 +33,7 @@ const displayProducts = (products) => {
                 <p class="card-text">
                   ${product.description}
                 </p>
-                <a href="#" class="btn btn-primary">${product.price}</a>
+                <a href="#" class="btn btn-primary">£${product.price}</a>
                 <a class="btn btn-warning" href="backoffice.html?id=${product._id}">Edit</a>
               </div>
               </div>

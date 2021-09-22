@@ -12,6 +12,15 @@
     left: 200px;
 }
 
-.form-control{
+.search{
     width: 600px !important;
+}
+
+.card-img-top {
+    max-height: 270px;
+}
+
+.productSection {
+margin-left: 5px;
+margin-right: 5px;
 }
