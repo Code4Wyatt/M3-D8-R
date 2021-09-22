@@ -72,7 +72,7 @@ async function getProductDetails(id) {
         console.log(product)
         console.log(Object.keys(product))
 
-        Object.keys(product).forEach(key => {
+        Object.keys(product).forEach(key => { // Use Object.keys with product as parameter to get each key within API entry, for each of them we get 
           const field = document.querySelector(`#${key}`)
           if (field) field.value = product[key]
         })
