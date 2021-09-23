@@ -80,3 +80,5 @@ async function getProductDetails(id) {
         console.log(error)
       }
     }
+
+    // getting JSON error at position 0, need to check and fix
