@@ -6,7 +6,8 @@ window.onload = function () {
 
     if (id) document.querySelector("#page-title").innerHTML = "Edit product"
     getProductDetails(id)
-
+  
+    // want to set an if statement so if there is an id the method is changed from post to put
 }
 
 const handleSubmit = async (event) => {
